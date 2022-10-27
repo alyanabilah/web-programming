@@ -13,7 +13,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if(!$conn) {
     die ("Connection failed: " . mysqli_connect_error());
 }
-echo "Connected Successfully . (MYSQLi Procedural) <br><br>";
+//echo "Connected Successfully . (MYSQLi Procedural) <br><br>";
 
 
 // ///////////////////// MYSQL Object Oriented //////////////////////////////
@@ -44,5 +44,5 @@ echo "Connected Successfully . (MYSQLi Procedural) <br><br>";
 //   }
   
 //   $conn = null;
-//akjdgfkjasfdjkgasdkfjg
+//
 ?>
